@@ -1,8 +1,8 @@
 /* Space out content a bit */
 
-body {
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+html, body {
+    margin: 0;
+    padding: 0;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -52,6 +52,7 @@ body {
 .jumbotron {
     text-align: center;
     border-bottom: .05rem solid #e5e5e5;
+    opacity: 0.8
 }
 
 .jumbotron .btn {
@@ -85,4 +86,12 @@ body {
     .jumbotron {
         border-bottom: 0;
     }
+}
+
+.background {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: -1;
 }

@@ -1,73 +1,78 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="SheepShilling" content="SheepShilling">
 
-    <title>SheepShilling ICO</title>
+    <title>SheepShilling</title>
+
+    <link rel="icon" type="image/ico" href="img/favicon.ico">
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous" />
     <!-- Custom styles for this template -->
     <link rel="stylesheet" href="css/styles.css" />
 
-  </head>
+</head>
 
-  <body>
+<body>
     <div class="container">
-      <div class="header clearfix">
-        <nav>
-          <ul class="nav nav-pills float-right">
-            <li class="nav-item">
-              <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="mailto:info@cgrii.org">Contact</a>
-            </li>
-          </ul>
-        </nav>
-        <h3 class="text-muted">SheepShilling ICO</h3>
-      </div>
-
-      <div class="jumbotron">
-        <h1 class="display-5">SheepShilling ICO</h1>
-        <p class="lead"><a href='https://rinkeby.etherscan.io/token/0xd3f25d7707a2667477fef9da880171935960e1c5' target='_blank'><strong>0xd3f25d7707A2667477fEF9da880171935960e1C5</strong></a></p>
-        <h1 class="display-5">Total Raised</h1>
-        <p class="lead"><strong id="amountRaised"></strong></p>
-      </div>
-
-      <div class="row marketing">
-        <div class="col-lg-6">
-          <h4>Price</h4>
-          <p>1 ETH = 10 BAAA</p>
-
-          <h4>Total Supply</h4>
-          <p>6.516 Billion BAAA</p>
-
+        <div class="header clearfix">
+            <nav>
+                <ul class="nav nav-pills float-right">
+                    <li class="nav-item">
+                        <a class="nav-link text-danger" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-danger" href="mailto:info@cgrii.org">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+            <h3 class="text-muted">SheepShilling<img src="img/favicon.ico" alt="" align="bottom"></h3>
         </div>
 
-        <div class="col-lg-6">
-          <h4>Start Date</h4>
-          <p>13th Apr 2018, 10:10 am</p>
-
-          <h4>End Date</h4>
-          <p>31th May 2018, 12:00 pm</p>
-
-          <h4>Max Cap</h4>
-          <p>10 ETH</p>
+        <div class="jumbotron">
+            <h1 class="display-5">SheepShilling ICO</h1>
+            <p class="lead"><a href='https://rinkeby.etherscan.io/token/0xd3f25d7707a2667477fef9da880171935960e1c5' target='_blank'><strong>0xd3f25d7707A2667477fEF9da880171935960e1C5</strong></a></p>
+            <h1 class="display-5">Total Raised</h1>
+            <p class="lead"><strong id="amountRaised"></strong></p>
         </div>
-      </div>
 
-      <footer class="footer">
-        <p>&copy; SheepShilling 2018</p>
-      </footer>
+        <div class="row marketing">
+            <div class="col-lg-6">
+                <h4>Price</h4>
+                <p>1 ETH = 10 BAAA</p>
 
-    </div> <!-- /container -->
+                <h4>Total Supply</h4>
+                <p>6.516 Billion BAAA</p>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.1/particles.js"></script>
+            </div>
+
+            <div class="col-lg-6">
+                <h4>Start Date</h4>
+                <p>13th Apr 2018, 10:10 am</p>
+
+                <h4>End Date</h4>
+                <p>31th May 2018, 12:00 pm</p>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <p>&copy; SheepShilling 2018</p>
+        </footer>
+
+    </div>
+    <!-- /container -->
+
+    <canvas class="background"></canvas>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.1/particles.min.js"></script>
+    <script src="js/particles.js"></script>
     <script src="https://cdn.rawgit.com/ethereum/web3.js/0.19.0/dist/web3.js"></script>
     <script src="js/abi.js"></script>
 
-  </body>
+</body>
+
 </html>
