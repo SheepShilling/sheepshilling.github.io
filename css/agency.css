@@ -177,7 +177,7 @@ img::-moz-selection {
 #intro-text {
     text-align: center;
     color: black;
-    opacity: 0.9;
+    opacity: 0.95;
     position: absolute;
     margin: auto;
     top: 300px;
@@ -187,11 +187,12 @@ img::-moz-selection {
 }
 
 #intro-text .intro-lead-in {
-  font-size: 22px;
+  font-size: 30px;
   font-style: italic;
   line-height: 22px;
   margin-bottom: 25px;
   font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-image: linear-gradient(-100deg, rgba(255, 255, 255, 0), #ff0000 85%, rgba(255, 255, 255, 0));
 }
 
 #intro-text .intro-heading {
@@ -200,6 +201,7 @@ img::-moz-selection {
   line-height: 50px;
   margin-bottom: 25px;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-image: linear-gradient(-100deg, rgba(255, 255, 255, 0), #ff0000 85%, rgba(255, 255, 255, 0));
 }
 
 @media (min-width: 768px) {
