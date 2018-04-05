@@ -1,7 +1,7 @@
 {
     "particles":{
         "number":{
-            "value":42
+            "value":100
         },
         "color":{
             "value":"#fff"
@@ -25,14 +25,14 @@
             "random":true
         },
         "line_linked":{
-            "enable":true,
+            "enable":false,
             "distance":120,
             "color":"#aaa",
             "width":1
         },
         "move":{
             "enable":true,
-            "speed":1
+            "speed":2
         }
     },
     "interactivity":{
